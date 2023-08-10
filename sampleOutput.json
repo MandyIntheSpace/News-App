@@ -1,0 +1,71 @@
+{
+    "status": "ok",
+    "totalResults": 5,
+    "articles": [
+      {
+        "source": {
+          "id": "talksport",
+          "name": "TalkSport"
+        },
+        "author": "talkSPORT",
+        "title": "Football news LIVE: Liverpool v Everton build-up, VAR drama, Tottenham star to undergo surgery, Wayne...",
+        "description": "",
+        "url": "https://talksport.com/football/1330223/football-news-live-liverpool-everton-tottenham-champions-league-arsenal-man-city/",
+        "urlToImage": "https://talksport.com/wp-content/uploads/sites/5/2023/02/ah-TALKSPORT-BLOG-klopp-guardiola-Bentancur.jpg?strip=all&quality=100&w=1500&h=1000&crop=1",
+        "publishedAt": "2023-02-13T11:22:00Z",
+        "content": "talkSPORT.com has you covered with all the latest Premier League news, gossip and views in our dedicated football live blog.\r\nLiverpool v Everton is coming up tonight as the Merseyside rivals face of… [+345 chars]"
+      },
+      {
+        "source": {
+          "id": "the-huffington-post",
+          "name": "The Huffington Post"
+        },
+        "author": "AP",
+        "title": "Kansas City Chiefs Face Philadelphia Eagles In Super Bowl 2023",
+        "description": "There will be plenty of action on the football field Sunday.",
+        "url": "https://www.huffpost.com/entry/super-bowl-kansas-city-chiefs-philadelphia-eagles_n_63e975a3e4b02c2573773693",
+        "urlToImage": "https://img.huffingtonpost.com/asset/63e975a72200005d00235d1a.jpeg?ops=1200_630",
+        "publishedAt": "2023-02-12T23:29:04Z",
+        "content": "Kansas City Chiefs quarterback Patrick Mahomes (15) and teammates take the field before the NFL Super Bowl 57 football game between the Kansas City Chiefs and the Philadelphia Eagles, Sunday, Feb. 12… [+20920 chars]"
+      },
+      {
+        "source": {
+          "id": "focus",
+          "name": "Focus"
+        },
+        "author": "FOCUS online",
+        "title": "„Andere würden sich den Arm abhacken für das, was ich zum 57. Mal erlebe“",
+        "description": "Mehr geht nicht: Auch bei der 57. Ausgabe des Super Bowls sind drei amerikanische Footballfans dabei, die sich selbst den Namen „Never Miss A Super Bowl Club“ gegeben haben. Mehr als ein halbes Jahrhundert jedes NFL-Finale im Stadion gesehen? Da fühlt sich ei…",
+        "url": "https://www.focus.de/sport/nfl/drei-fans-sahen-jeden-super-bowl-live-andere-wuerden-sich-den-arm-abhacken-fuer-das-was-ich-zum-57-erlebe_id_185635257.html",
+        "urlToImage": "https://p6.focus.de/img/fotos/id_185635255/don-crisman-tom-henschel-und-gregory-eaton-von-links-nach-rechts-.png?im=Crop%3D%280%2C7%2C2454%2C1227%29%3BResize%3D%281200%2C627%29&impolicy=perceptual&quality=medium&hash=926ced56a1dec7dc7db795691966a39f04eb5cb73efe892b9d5020d3c2022eb0",
+        "publishedAt": "2023-02-12T15:36:19Z",
+        "content": "Mehr geht nicht: Auch bei der 57. Ausgabe des Super Bowls sind drei amerikanische Footballfans dabei, die sich selbst den Namen Never Miss A Super Bowl Club gegeben haben. Mehr als ein halbes Jahrhun… [+1236 chars]"
+      },
+      {
+        "source": {
+          "id": "the-washington-post",
+          "name": "The Washington Post"
+        },
+        "author": "Michael de Adder",
+        "title": "Political football",
+        "description": "A cartoon by Michael de Adder",
+        "url": "https://www.washingtonpost.com/opinions/2023/02/10/michael-de-adder-cartoon-political-football-mitch-mcconnell-rick-scott/",
+        "urlToImage": "https://www.washingtonpost.com/wp-apps/imrs.php?src=https://arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/GETW36VJSII63MDCUIUXJOGE64.jpg&w=1440",
+        "publishedAt": "2023-02-10T22:29:22Z",
+        "content": null
+      },
+      {
+        "source": {
+          "id": "espn-cric-info",
+          "name": "ESPN Cric Info"
+        },
+        "author": null,
+        "title": "Five famous people (and one cat) you didn't know have ESPNcricinfo profiles | ESPNcricinfo.com",
+        "description": "Why do a footballer, a Nobel laureate and a prime minister (no, not Imran Khan) find themselves in the ESPNcricinfo player database? | ESPNcricinfo.com",
+        "url": "http://www.espncricinfo.com/story/_/id/29102695/five-famous-people-one-cat-know-espncricinfo-profiles",
+        "urlToImage": "https://a.espncdn.com/i/cricket/cricinfo/1221668_1296x1296.gif",
+        "publishedAt": "2020-04-27T07:20:43Z",
+        "content": "Why do a cat, a footballer, a Nobel laureate and a prime minister find themselves in the ESPNcricinfo database? Here are six player profiles you wouldn't have expected we had.\r\nPeter the catThe only … [+5504 chars]"
+      }
+    ]
+  }

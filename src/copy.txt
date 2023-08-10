@@ -1,0 +1,29 @@
+import React, { Component } from 'react'
+import Navbar from './mycomponents/Navbar'
+import Photos from './mycomponents/Photos';
+import News from './mycomponents/News';
+import NewsItem from './mycomponents/NewsItem';
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+export class App extends Component {
+    render() {
+        return (
+            <BrowserRouter>
+                <div>
+                    <Navbar />
+                    <Photos />
+                    <Routes>
+                        <Route excat path='/' element={<News pageSize={5} apiKey={'e412177f70f74706911c78dd1d801848'} country="in" category="general" />} />
+                        <Route excat path='/health' element={<News pageSize={5} apiKey={'e412177f70f74706911c78dd1d801848'} country="in" category="health" />} />
+                        <Route excat path='/science' element={<News pageSize={5} apiKey={'e412177f70f74706911c78dd1d801848'} country="in" category="science" />} />
+                        <Route excat path='/sports' element={<News pageSize={5} apiKey={'e412177f70f74706911c78dd1d801848'} country="in" category="sports" />} />
+                        <Route excat path='/technology' element={<News pageSize={5} apiKey={'e412177f70f74706911c78dd1d801848'} country="in" category="technology" />} />
+                        <Route excat path='/entertainment' element={<News pageSize={5} apiKey={'e412177f70f74706911c78dd1d801848'} country="in" category="entertainment" />} />
+                    </Routes>
+                </div>
+            </BrowserRouter>
+        )
+    }
+}
+
+export default App

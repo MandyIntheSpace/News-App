@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.wrapper{
+    width: 250px;
+    margin: 40px auto 0;
+}
+
+.select-btn{
+    display: flex;
+    padding: 0 24px;
+    height: 50px;
+    background-color: white;
+    border-radius: 6px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 18px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.474);
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.5s ease-in-out;
+    animation: mandy;
+    animation-duration: 2s;
+    animation-iteration-count: 0;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes mandy {
+    from{
+        height: 50px;
+    }
+    to{
+        height: 80px;
+    }
+}
+
+.select-btn:hover{
+    transform: translateY(-15%);
+}
+
+ul li{
+    list-style-type: none;
+}
+
+ .content{
+    height: 200px;
+    background-color: white;
+    margin-top: 1rem;
+    padding: 10px 20px;
+    border-radius: 6px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.474);
+    overflow-y: scroll;
+    display: none;
+}
+
+.wrapper.active .content{
+    display: block;
+}
+
+.wrapper .content .options .option{
+    display: flex;
+    padding: 10px;
+    position: relative;
+    cursor: pointer;
+    align-items: center;
+}
+
+.wrapper .content .options .option:hover{
+    background-color: #f2f2f2;
+}
+
+.option i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.option span{
+    font-size: 18px;
+    color: #333;
+}
+
+.content::-webkit-scrollbar{
+    width: 7px;
+}
+
+.content::-webkit-scrollbar-track{
+    background: #f1f1f1;
+    border-radius: 25px;
+}
+
+.content::-webkit-scrollbar-thumb{
+    background: #ccc;
+    border-radius: 25px;
+}
+
+.content::-webkit-scrollbar-thumb:hover{
+    background: #b3b3b3;
+}
+
+
+
+
+
+
+

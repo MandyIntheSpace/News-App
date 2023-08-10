@@ -1,0 +1,39 @@
+import React, { Component } from 'react'
+import './Navbar.css'
+import { BrowserRouter, BrowserRouter as Router, Link } from 'react-router-dom'
+
+export class Navbar extends Component {
+  render() {
+    return (
+      <BrowserRouter>
+        <div>
+          <div className="header">
+            <ul>
+              <li className="ul-list1 ">NEWS <span style={{ color: 'Red' }}>Monkey</span></li>
+              <li className="ul-list">
+                <Link style={{ textDecoration: 'none', color: 'crimson' }} to="/"><i className='bx bx-home'></i>General</Link>
+              </li>
+              <li className="ul-list">
+                <Link style={{ textDecoration: 'none' }} to="/health">Health</Link>
+              </li>
+              <li className="ul-list">
+                <Link style={{ textDecoration: 'none' }} to="/science">Science</Link>
+              </li>
+              <li className="ul-list">
+                <Link style={{ textDecoration: 'none' }} to="/sports">Sport</Link>
+              </li>
+              <li className="ul-list">
+                <Link style={{ textDecoration: 'none' }} to="/technology">Technology</Link>
+              </li>
+              <li className="ul-list">
+                <Link style={{ textDecoration: 'none' }} to="entertainment">Entertainment</Link>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </BrowserRouter>
+    )
+  }
+}
+
+export default Navbar
